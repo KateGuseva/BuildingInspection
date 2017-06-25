@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">BuildingInspection</string>
+    <string name="building_title_hint">Введите название объекта</string>
+    <string name="description_title_hint">Ведите описание объекта</string>
+    <string name="building_details_label">Дата визуального обследования объекта</string>
+    <string name="building_solved_label">Срочный объект(объект является срочным,если выдача результатов обследования требуется не позже,чем через 2 недели)</string>
+    <string name="building_solved_label1">Срочный объект(объект является срочным,если выдача \n
+                                          результатов обследования требуется не позже,чем через 2 недели)</string>
+    <string name="date_picker_title">Дата визуального обследования объекта:</string>
+
+    <string name="new_building">Создать новый объект</string>
+    <string name="show_subtitle">Количество объектов</string>
+    <string name="hide_subtitle">Скрыть количество объектов</string>
+    <string name="subtitle_format"> Всего объектов: %1$d  </string>
+    <string name="delete_building"> Удалить объект</string>
+    <string name="toast_delete_building"> Объект удален</string>
+
+    <string name="building_suspect_text">Позвонить</string>
+    <string name="building_report_text">Отправить отчет</string>
+    <string name="building_report_subject">Отчет о визуальном обследовании</string>
+    <string name="building_report">Наименование объекта:%1$s"\r\n"
+    Характеристики визуального обследования: %2$s"\r\n"
+        Дата обследования:%3$s
+    </string>
+    <string name="menu_count">Сведения об объектах</string>
+    <string name="menu_calk">Калькулятор стоимости</string>
+    <string name="menu_doc">Нормативные документы</string>
+    <string name="building_text_price">Стоимость обследования (руб)</string>
+    <string name="building_height">Высота этажа (м)</string>
+    <string name="building_zd">Высота здания (м)</string>
+    <string name="building_ob">Обследуемый объем (м3)</string>
+    <string name="building_etag">Количество этажей</string>
+    <string name="button_count">Рассчитать стоимость</string>
+
+
+    <string-array name="masOfBuild">
+        <item>Выберите назначение здания</item>
+        <item>Жилое</item>
+        <item>Гражданское</item>
+        <item>Промышленное</item>
+        <item>Сельскохозяйственное</item>
+        <item>Другое</item>
+
+    </string-array>
+    <string-array name="masOfNaznach">
+        <item>Сложность обследования</item>
+        <item>Предварительное</item>
+        <item>Общее</item>
+        <item>Детальное</item>
+    </string-array>
+
+    <string-array name="doc_names">
+        <item>СНБ 1.03.02-96"\r\n"Состав,порядок разработки и согласования проектной документации в строительстве.</item>
+        <item>ГОСТ 5781-82 "\r\n"Сталь горячекатаная для армирования железобетонных конструкций. Технические условия (с Изменениями N 1, 2, 3, 4, 5)</item>
+        <item>ГОСТ 8240-97 "\r\n"Швеллеры стальные горячекатаные. Сортамент</item>
+        <item>ГОСТ 8509-93  "\r\n"Уголки стальные горячекатаные равнополочные. Сортамент</item>
+        <item>СНиП 3.01.04-87"\r\n"Приемка в эксплуатацию законченных строительством объектов</item>
+
+    </string-array>
+    <string name="title_activity_documents">Ссылки на документы</string>
+
+</resources>
